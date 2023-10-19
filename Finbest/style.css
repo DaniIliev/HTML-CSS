@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Poppins:wght@400;800&display=swap');
+/* reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Font-family */
+
+html{
+    font-size: 16px;
+    font-family: inter;
+    line-height: 1.5;
+}
+
+/*  */
+
+body{
+    /* padding: 2em; */
+}
+
+/* header */
+.site-header{
+    background-color: azure;
+    padding: 1.5em 8em 1.5em 8em;
+}
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* navigation */
+.site-header .user-login-register nav ul,
+.site-header .navigation nav ul{
+    display: flex;
+    gap: 4em;
+}
+.site-header .user-login-register nav ul li,
+.site-header .navigation nav ul li{
+    display: block;
+}
+#aboutPricing p a,
+.site-header .user-login-register nav ul li a,
+.site-header .navigation nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Features */
+
+#features .wrapp{
+    padding: 5em;
+    background-color: rgba(173,227,222,255);
+}
+.content{
+    text-align: center;
+}
+.wrapp .content h1{
+    font-size: 3em;
+    /* padding-top: 1em; */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.buttons p {
+    margin-top: 2em;
+    background-color: black;
+    padding: 1em 1.5em;
+    border-radius: 0.5em;
+}
+.buttons p a{
+    text-decoration: none;
+    color: white;
+}
+
+/* information */
+.information{
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.information .card{
+    flex: 1 1 30%;
+    border-left: 1px solid rgb(209, 203, 203);
+    border-right: 1px solid rgb(209, 203, 203);
+    padding: 1em;
+}
+
+.information .card:first-of-type{
+    margin-left: 10em;
+}
+.information .card:last-of-type{
+    margin-right: 10em;
+
+}
+.information .card h2,
+.information .card p {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+/* section how it works */
+
+#howWork{
+    background-color: rgba(173,227,222,255);
+    display: flex;
+    align-items: center;
+}
+
+.media{
+    border-left: 1px solid rgb(209, 203, 203);
+    border-right: 1px solid rgb(209, 203, 203);
+    margin-left: 12.5em;
+}
+.media img{
+    padding: 50% 0 50% 0;
+    width: 100%;
+    height: auto
+}
+.about{
+    padding: 3.5em 2.5em 0 3.5em;
+    padding-left: 2.5em;
+    margin-right: 12.5em;
+}
+.about h2{
+    font-size: 3em;
+    line-height: 1.2;
+    margin-bottom: 0.2em;
+}
+.about p span{
+    font-weight: bold;
+}
+
+.about p:nth-child(odd){
+    padding-bottom: 0.5em;
+}
+
+.about p:nth-child(even){
+    padding-bottom: 0.2em;
+}
+.btn{
+    padding-bottom: 5em;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    padding: 2em 0.5em 0 0.5em;
+    border-bottom: 2px solid rgb(209, 203, 203);
+}
+
+/* aboutPricing */
+#aboutPricing{
+    background-color: rgba(243,245,251,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0 4em 0;
+}
+
+#aboutPricing p {
+    margin-bottom: 1em;
+    background-color: rgba(173,227,222,255);
+    padding: 0.5em 1em;
+}
+
+/* plans */
+#plans{
+    display: flex;
+    border: 2px solid rgb(209, 203, 203);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#plans .card{
+    padding: 2em;
+    background-color: white;
+    /* margin-bottom: 2em; */
+
+}
+
+#plans .card h3{
+text-align: center;
+}
+#plans .card h2{
+padding: 1em 0 0.8em 0;
+border-bottom: 2px solid rgb(209, 203, 203);;
+}
+
+#plans .card ul{
+    padding: 2em 0.1em 2em 0.1em ;
+}
+#plans .card ul li{
+    padding-bottom: 0.2em;
+}
+#plans .btn2{
+    padding: 1em 2em 1em 2em;
+    background-color: rgba(173,227,222,255);
+    text-align: center;
+}
+#plans .btn2 a{
+    text-decoration: none;
+    color: black;
+}
+
+#plans .contactUs{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(173,227,222,255);
+    padding: 1em 2em 3em 2em;
+}
+.contactUs p:first-of-type{
+    text-align: center;
+}
+.contactUs p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.contactUs p:nth-child(2){
+    padding-bottom: 2em;
+}
+
+.contactUs ul{
+    margin-left: 1em;
+}
+.contactUs p:last-of-type{
+    align-self: center;
+    margin-top: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+}
+.contactUs p:last-of-type a{
+    color: white;
+    text-decoration: none;
+
+}
+#plans1{
+    background-color: rgba(243,245,251,255);
+
+}
+
+/* getStarted */
+#getStarted{
+    background-color: rgba(243,245,251,255);
+
+
+}
+#getStarted .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 6em;
+    background-color: rgba(173,227,222,255);
+}
+.wrapper .content h1{
+    text-align: center;
+    font-size: 3em;
+    /* max-width: 50%; */
+}
+.content{
+    max-width: 40%;
+}
+
+
+footer p{
+    padding: 1em;
+}
