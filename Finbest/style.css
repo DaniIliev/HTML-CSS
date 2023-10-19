@@ -89,7 +89,9 @@ body{
     border-right: 1px solid rgb(209, 203, 203);
     padding: 1em;
 }
-
+.information .card{
+    margin-bottom: 1.5em;
+}
 .information .card:first-of-type{
     margin-left: 10em;
 }
@@ -260,12 +262,12 @@ border-bottom: 2px solid rgb(209, 203, 203);;
     padding: 6em;
     background-color: rgba(173,227,222,255);
 }
-.wrapper .content h1{
+#getStarted .wrapper .content h1{
     text-align: center;
     font-size: 3em;
     /* max-width: 50%; */
 }
-.content{
+#getStarted .wrapper .content{
     max-width: 40%;
 }
 
