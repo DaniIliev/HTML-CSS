@@ -10,12 +10,6 @@
     justify-content: space-around;
 }
 
-.logo{
-    background-color: #c5a133;
-    /* position: absolute; */
-    left: 5EM;
-    top: ;
-}
 .navigation{
     display: flex;
     flex-direction: column;
